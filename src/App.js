@@ -2,13 +2,13 @@ import React from 'react';
 import './App.css';
 
 import Title from "./components/Title";
-import Button from "./components/Button";
+import Click from "./components/Click";
 
 function App() {
   return (
     <div className="app">
         <Title />
-        <Button />
+        <Click />
     </div>
   );
 }

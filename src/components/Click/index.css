@@ -1,0 +1,20 @@
+.click{
+   text-align: center;
+}
+.click h1{
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+.click button{
+    background-color: rgba(242, 231, 12, .8);
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    border: 0;
+    padding: 16px;
+    outline: none;
+}
+.click button:hover{
+    background-color: rgb(255, 243, 0);
+}
