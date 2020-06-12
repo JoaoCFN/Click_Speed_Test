@@ -7,7 +7,6 @@ const Click = () => {
     const [numberClicks, setNumberClicks] = useState(0);
     const [startClock, setStartClock] = useState(false);
     const [seconds, setSeconds] = useState(7);
-    // const [miliseconds, setMiliseconds] = useState(0);
 
     function handleNumberClick(){
         setNumberClicks(numberClicks + 1);
@@ -36,16 +35,6 @@ const Click = () => {
             }, 3000)
         }
     }
-
-
-
-    // setTimeout(() => {
-    //     setMiliseconds(miliseconds + 100)
-    //     clearInterval(1000)
-    // }, 100)
-
-    // if(miliseconds === 1000) setMiliseconds(0);
-
 
     return (
         <>
