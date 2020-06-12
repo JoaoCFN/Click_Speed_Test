@@ -24,15 +24,13 @@ const Click = () => {
             Swal.fire({
                 icon: "success",
                 title: `${numberClicks/seconds} CPS!`,
-                text: `Sua pontuação foi ${numberClicks} em 10 segundos`
-                
-            })
-    
-            setTimeout(() => {
+                text: `Sua pontuação foi ${numberClicks} clicks em 10 segundos`,
+            }).then(result => {
+                console.log(result)
                 setStartClock(false);
                 setNumberClicks(0);
-                setSeconds(0);
-            }, 3000)
+                setSeconds(0);             
+            })
         }
     }
 
