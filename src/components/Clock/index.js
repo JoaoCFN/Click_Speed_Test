@@ -6,7 +6,7 @@ import Swal from "sweetalert2";
 const Click = () => {
     const [numberClicks, setNumberClicks] = useState(0);
     const [startClock, setStartClock] = useState(false);
-    const [seconds, setSeconds] = useState(7);
+    const [seconds, setSeconds] = useState(0);
 
     function handleNumberClick(){
         setNumberClicks(numberClicks + 1);
