@@ -24,7 +24,7 @@ const Clock = () => {
             Swal.fire({
                 icon: "success",
                 title: `${numberClicks/seconds} CPS!`,
-                text: `Sua pontuação foi ${numberClicks} clicks em 10 segundos`,
+                text: `Sua pontuação foi de ${numberClicks} clicks em 10 segundos`,
             }).then(result => {
                 console.log(result)
                 setStartClock(false);
