@@ -3,7 +3,7 @@ import "./index.css";
 import { FiMousePointer, FiClock } from "react-icons/fi";
 import Swal from "sweetalert2";
 
-const Click = () => {
+const Clock = () => {
     const [numberClicks, setNumberClicks] = useState(0);
     const [startClock, setStartClock] = useState(false);
     const [seconds, setSeconds] = useState(0);
@@ -57,4 +57,4 @@ const Click = () => {
     );
 }
 
-export default Click;
+export default Clock;
