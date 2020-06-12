@@ -1,7 +1,8 @@
 # Click Speed Test
 ## :pencil: Projeto
 
-Click Speed Test para botar em prática meus estudos de React.
+![print_projeto](midia/print-web.png?raw=true "print da homepage do player")
 
-**:link: Acesse o site e confira o projeto:
-https://elated-cori-364789.netlify.app/**
+### Click Speed Test para botar em prática meus estudos de React.
+
+### :link: Acesse o site e confira o projeto: https://elated-cori-364789.netlify.app/
