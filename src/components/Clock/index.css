@@ -1,0 +1,52 @@
+.click{
+   text-align: center;
+}
+.click h1{
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+.click button{
+    background-color: rgb(232, 222, 19);
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    border: 0;
+    padding: 16px;
+    outline: none;
+}
+.click button:hover{
+    background-color: rgb(255, 243, 0);
+}
+
+.click button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.click button span{
+    padding-left: 8px;
+}
+
+.clock{
+    color: #ffffff;
+    font-size: 40px;
+}
+.clock h1{
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.clockLayout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.clockLayout span{
+    padding-left: 8px;
+}

@@ -2,13 +2,14 @@ import React from 'react';
 import './App.css';
 
 import Title from "./components/Title";
-import Click from "./components/Click";
+import Clock from "./components/Clock";
+// import Clock from "./components/Clock";
 
 function App() {
   return (
     <div className="app">
         <Title />
-        <Click />
+        <Clock />
     </div>
   );
 }
