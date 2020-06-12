@@ -11,32 +11,32 @@ const Click = () => {
 
     function handleNumberClick(){
         setNumberClicks(numberClicks + 1);
+        setStartClock(true)
+    }
 
+    if(startClock){
         if(seconds !== 10){
-            setStartClock(true)
             setTimeout(() => {
                 setSeconds(seconds + 1)
             }, 1000)
         }
         
         else{
-            
-            console.log("sadsad")
             Swal.fire({
                 icon: "success",
                 title: `${numberClicks/seconds} CPS!`,
                 text: `Sua pontuação foi ${numberClicks} em 10 segundos`
                 
             })
-
+    
             setTimeout(() => {
                 setStartClock(false);
                 setNumberClicks(0);
                 setSeconds(0);
-                console.log("limpou")
             }, 3000)
         }
     }
+
 
 
     // setTimeout(() => {
