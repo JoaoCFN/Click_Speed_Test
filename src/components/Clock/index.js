@@ -25,12 +25,13 @@ const Clock = () => {
                 icon: "success",
                 title: `${numberClicks/seconds} CPS!`,
                 text: `Sua pontuação foi de ${numberClicks} clicks em 10 segundos`,
-            }).then(result => {
-                console.log(result)
+            })
+
+            setTimeout(() => {
                 setStartClock(false);
                 setNumberClicks(0);
                 setSeconds(0);             
-            })
+            }, 2000);
         }
     }
 
